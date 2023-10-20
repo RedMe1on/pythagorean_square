@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@3.3.22/dist/vuetify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.3.22/dist/vuetify.min.js"></script>
+</head>
+<body>
+<style>
+    table {
+        margin: auto;
+        border-spacing: 0 !important;
+    }
+
+
+    th {
+        width: 150px;
+        height: 100px;
+        background: antiquewhite;
+        border-color: antiquewhite;
+    }
+
+    td {
+        text-align: center;
+        width: 150px;
+        height: 100px;
+        border: 1px solid #eee;
+    }
+
+    .wrapper {
+        padding: 4rem;
+    }
+
+    .th-text {
+        color: #00f;
+        font-size: 12px;
+    }
+</style>
+
+<div id="calc">
+    <div class="wrapper">
+        <v-text-field
+                type="date"
+                v-model="date"
+                label="Введите дату"
+                required
+                variant="outlined"
+        ></v-text-field>
+        <v-btn class="my-4" @click="calculate">
+            Рассчитать
+        </v-btn>
+
+        <table>
+            <thead>
+            <th>
+                <div>Число судьбы</div>
+                <div v-if="obj[1] + obj[2] + obj[3]">{{obj[1] + obj[2] + obj[3]}}</div>
+            </th>
+            <th>
+                <div>Доп. числа</div>
+                <div><span v-if="additional_digits">{{additional_digits}}</span></div>
+            </th>
+            <th>
+                <div></div>
+            </th>
+            <th>
+                <div>Темперамент</div>
+                <div v-if="obj[3] + obj[5] + obj[7]">{{obj[3] + obj[5] + obj[7]}}</div>
+            </th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <div class="th-text">Характер</div>
+                    <div><span v-for="i in obj[1]">1</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Здоровье</div>
+                    <div><span v-for="i in obj[4]">4</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Удача</div>
+                    <div><span v-for="i in obj[7]">7</span></div>
+                </td>
+                <th>
+                    <div>Цель</div>
+                    <div><span v-if="obj[1] + obj[4] + obj[7]">{{obj[1] + obj[4] + obj[7]}}</span></div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="th-text">Энергия</div>
+                    <div><span v-for="i in obj[2]">2</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Логика</div>
+                    <div><span v-for="i in obj[5]">5</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Долг</div>
+                    <div><span v-for="i in obj[8]">8</span></div>
+                </td>
+                <th>
+                    <div>Семья</div>
+                    <div><span v-if="obj[2] + obj[5] + obj[8]">{{obj[2] + obj[5] + obj[8]}}</span></div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="th-text">Интерес</div>
+                    <div><span v-for="i in obj[3]">3</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Труд</div>
+                    <div><span v-for="i in obj[6]">6</span></div>
+                </td>
+                <td>
+                    <div class="th-text">Память</div>
+                    <div><span v-for="i in obj[9]">9</span></div>
+                </td>
+                <th>
+                    <div>Привычки</div>
+                    <div><span v-if="obj[3] + obj[6] + obj[9]">{{obj[3] + obj[6] + obj[9]}}</span></div>
+                </th>
+            </tr>
+            <tr>
+                <td style="border: none"></td>
+                <th>
+                    <div>Быт</div>
+                    <div><span v-if="obj[4] + obj[5] + obj[6]">{{obj[4] + obj[5] + obj[6]}}</span></div>
+                </th>
+                <td style="border: none"></td>
+                <td style="border: none"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    const {createApp, ref} = Vue
+    const {createVuetify} = Vuetify
+
+
+    const vuetify = createVuetify()
+    createApp({
+        setup() {
+            const date = ref(null)
+            const additional_digits = ref('')
+            const obj = ref({})
+            for (let i = 0; i < 10; i++) {
+                obj.value[i] = 0
+            }
+
+            function getSumDigits(string) {
+                let sum = 0
+                string.split('').forEach(num => {
+                    sum += Number(num);
+                })
+                return sum
+            }
+
+            function getCountDigits(string) {
+                let obj = {}
+                for (let i = 0; i < 10; i++) {
+                    obj[i] = 0
+                }
+                for (let digit of string) {
+                    if (obj.hasOwnProperty(digit)) {
+                        obj[digit] += 1
+                    } else obj[digit] = 1
+                }
+                return obj
+            }
+
+
+            function calculate() {
+                console.log(date.value)
+                if (!date.value) return
+                const arr = date.value.toString().split('-')
+
+                const array = arr.map(num => num.replaceAll('0', ''))
+
+                const day = array[2]
+                const month = array[1]
+                const year = array[0]
+                console.log(array)
+                let number_1 = 0
+                for (let number of array) {
+                    number_1 += getSumDigits(number)
+                }
+                console.log('number_1', number_1)
+
+                let number_2 = getSumDigits(number_1.toString())
+
+                console.log('number_2', number_2)
+
+                let number_3 = number_1 - day[0] * 2
+
+                console.log('day[0]', day[0])
+                console.log('number_3', number_3)
+
+                let number_4 = getSumDigits(number_3.toString())
+
+                console.log('number_4', number_4)
+                const all_digits = day + month + year + number_1.toString() + number_2.toString() + number_3.toString() + number_4.toString()
+                console.log('all_digits', all_digits)
+                // const all_digits = day.toString() + month.toString() + year.toString()
+                obj.value = getCountDigits(all_digits)
+                additional_digits.value = `${number_1}, ${number_2}, ${number_3}, ${number_4}`
+                console.log('obj', obj.value)
+
+            }
+
+            return {
+                obj, date, calculate, additional_digits
+            }
+        }
+    }).use(vuetify).mount('#calc')
+</script>
+</body>
+</html>
