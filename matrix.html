@@ -42,6 +42,29 @@
 <div id="calc">
     <div class="wrapper">
         <v-text-field
+                type="number"
+                v-model="input_day"
+                label="День"
+                :rules="[v => v <= 31 || 'Не больше 31 дня']"
+                required
+                variant="outlined"
+        ></v-text-field>
+        <v-text-field
+                type="number"
+                v-model="input_month"
+                label="Месяц"
+                :rules="[v => v <= 12 || 'В году 12 месяцев']"
+                required
+                variant="outlined"
+        ></v-text-field>
+        <v-text-field
+                type="number"
+                v-model="input_year"
+                label="Год"
+                required
+                variant="outlined"
+        ></v-text-field>
+        <v-text-field
                 type="date"
                 v-model="date"
                 label="Введите дату"
@@ -147,6 +170,9 @@
     const vuetify = createVuetify()
     createApp({
         setup() {
+            const input_day = ref(null)
+            const input_month = ref(null)
+            const input_year = ref(null)
             const date = ref(null)
             const additional_digits = ref('')
             const obj = ref({})
@@ -178,8 +204,11 @@
 
             function calculate() {
                 console.log(date.value)
-                if (!date.value) return
-                const arr = date.value.toString().split('-')
+                // if (!date.value) return
+                if (!input_day.value && !input_month.value && !input_year.value) return
+                const arr = [input_day.value, input_month.value, input_year.value]
+                console.log(arr)
+                // const arr = date.value.toString().split('-')
 
                 const array = arr.map(num => num.replaceAll('0', ''))
 
@@ -215,7 +244,7 @@
             }
 
             return {
-                obj, date, calculate, additional_digits
+                obj, date, calculate, additional_digits, input_day, input_month, input_year
             }
         }
     }).use(vuetify).mount('#calc')
