@@ -270,12 +270,14 @@
                 const arr = [input_day.value, input_month.value, input_year.value]
                 console.log(arr)
                 // const arr = date.value.toString().split('-')
-
+                // const day = array[2].toString()
+                // const month = array[1].toString()
+                // const year = array[0].toString()
                 const array = arr.map(num => num.replaceAll('0', ''))
 
-                const day = array[2]
-                const month = array[1]
-                const year = array[0]
+                const day = array[0].toString()
+                const month = array[1].toString()
+                const year = array[2].toString()
 
                 let number_1 = 0
                 for (let number of array) {
@@ -283,6 +285,7 @@
                 }
                 let number_2 = getSumDigits(number_1.toString())
                 let number_3 = number_1 - day[0] * 2
+                console.log(number_1, day[0] * 2, day)
                 let number_4 = getSumDigits(number_3.toString())
                 fate_number.value = getSumDigits(number_1.toString())
                 const all_digits = day + month + year + number_1.toString() + number_2.toString() + number_3.toString() + number_4.toString()
