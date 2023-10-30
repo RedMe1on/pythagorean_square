@@ -1,0 +1,2455 @@
+body {
+    background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* -------------------------HEADER------------------------------------------ */
+
+.logo {
+    width: 68px;
+    height: 69px;
+    margin-left: 16px;
+    margin-top: 23px;
+    border-radius: 40px;
+}
+
+.main-head-text {
+    margin-left: 91px;
+    margin-top: -53px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.second-head-text {
+    margin-left: 91px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.third-head-text {
+    margin-left: 10px;
+    margin-top: -17px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.line-one {
+    width: 20px;
+    height: 0px;
+    margin-left: 18px;
+    margin-top: -5px;
+    border: 1px solid #000000;
+}
+
+.four-head-text {
+    margin-left: 50px;
+    margin-top: -27px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.line-two {
+    width: 20px;
+    height: 0px;
+    margin-left: 18px;
+    margin-top: -3px;
+    border: 1px solid #000000;
+}
+
+.five-head-text {
+    margin-left: 50px;
+    margin-top: -27px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.line-three {
+    width: 20px;
+    height: 0px;
+    margin-left: 18px;
+    margin-top: -4px;
+    border: 1px solid #000000;
+}
+
+.six-head-text {
+    margin-left: 50px;
+    margin-top: -25px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000000;
+}
+
+/* ----------------------------MAIN--------------------------------------- */
+
+.your-numerolog {
+    width: 350px;
+    height: 170px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.big-line-one {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    top: 404.01px;
+    border: 1px solid #FFFFFF;
+}
+
+.numerologya {
+    width: 350px;
+    height: 123px;
+    margin-left: 39px;
+    top: 450px;
+}
+
+.taro {
+    width: 350px;
+    height: 133px;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.associatve {
+    width: 350px;
+    height: 140px;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.back {
+    width: 79px;
+    height: 29px;
+    margin-left: 174px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.btn-back {
+    width: 366px;
+    height: 45px;
+    margin-left: 31px;
+    margin-top: -38px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+/* ----------------------------second screen--------------------------------------- */
+
+.consultation {
+    width: 350px;
+    height: 128px;
+    margin-left: 39px;
+    margin-top: 43px;
+}
+
+.learning {
+    width: 350px;
+    height: 114px;
+    margin-left: 39px;
+    margin-top: 30px;
+}
+
+/* ----------------------------Numerology consultation--------------------------------------- */
+
+.psycho-matrix {
+    width: 350px;
+    height: 139px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.matrix-destiny-one {
+    width: 350px;
+    height: 139px;
+    margin-left: 39px;
+    margin-top: 30px;
+}
+
+.big-line-two {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+.main-consultation {
+    width: 350px;
+    height: 109px;
+    margin-left: 39px;
+    margin-top: 12px;
+}
+
+.consultation-price-one {
+    width: 367px;
+    height: 20px;
+    margin-left: 31px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-one {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+/* ----------------------------Learning(Numerology)--------------------------------------- */
+
+.main-learing {
+    margin-left: 40%;
+    width: 428px;
+    height: 1603px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.matrix-description-one {
+    width: 350px;
+    height: 166px;
+    margin-left: 39px;
+    margin-top: 30px;
+}
+
+.matrix-description-two {
+    width: 350px;
+    height: 208px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.matrix-description-three {
+    width: 350px;
+    height: 303px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.matrix-description-four {
+    width: 350px;
+    height: 305px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.at-the-end {
+    width: 350px;
+    height: 125px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.tariffs {
+    width: 350px;
+    height: 120px;
+    margin-left: 39px;
+    margin-top: 35px;
+}
+
+/* ----------------------------Psychomatrix(Numerology)--------------------------------------- */
+
+.main-psychomatrix {
+    margin-left: 40%;
+    width: 428px;
+    height: 1200px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.psychomatrix {
+    width: 378px;
+    height: 249px;
+    margin-left: 24px;
+    margin-top: 40px;
+}
+
+.psychomatrix-main-text {
+    width: 381px;
+    height: 459px;
+    margin-left: 24px;
+    margin-top: 14px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.psychomatrix-second-text {
+    width: 381px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.psychomatrix-third-text {
+    width: 388px;
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-six {
+    width: 379px;
+    height: 55px;
+    margin-left: 24px;
+    margin-top: 2px;
+}
+
+/* ----------------------------Main Matrix Destiny(Numerology)--------------------------------------- */
+
+.matrix-destiny-two {
+    width: 350px;
+    height: 131px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.money-matrix {
+    width: 350px;
+    height: 130px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.relationship-matrix {
+    width: 350px;
+    height: 144px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+/* ----------------------------Big Natrix Destiny(Numerology)--------------------------------------- */
+
+.main-big-destiny {
+    margin-left: 40%;
+    width: 428px;
+    height: 1500px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.big-matrix-destiny {
+    width: 386px;
+    height: 410px;
+    margin-left: 21px;
+    margin-top: 40px;
+}
+
+.big-matrix-destiny-text {
+    width: 406px;
+    height: 702px;
+    margin-left: 21px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+}
+
+.big-matrix-destiny-second-text {
+    width: 381px;
+    height: 40px;
+    margin-left: 21px;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.btn-calculator {
+    width: 386px;
+    height: 56px;
+    margin-left: 21px;
+    margin-top: -20px;
+}
+
+/* ----------------------------Calculator Matrix(Numerology)--------------------------------------- */
+
+.h2 {
+    width: 267px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.form-calc-control {
+    text-align: center;
+    background-color: #333332;
+    width: 366px;
+    height: 68px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.form-calc-control.is-invalid {
+    border-color: red;
+    color: red
+}
+
+.form-calc-label-hover {
+    position: relative;
+    width: 153px;
+    height: 36px;
+    margin-left: 110px;
+    top: -51px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.form-calc-submit {
+    border-right: none;
+    border-bottom: none;
+    width: 319px;
+    height: 65px;
+    margin-top: -10px;
+    background: #ac5ca8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    border-color: #575757;
+}
+
+.form-calc-control:focus {
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+
+/* ----------------------------Big Natrix Money(Numerology)--------------------------------------- */
+
+.main-matrix-money {
+    margin-left: 40%;
+    width: 428px;
+    height: 1200px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.big-matrix-money {
+    width: 385px;
+    height: 424px;
+    margin-left: 21px;
+    margin-top: 40px;
+}
+
+.big-matrix-money-text {
+    width: 364px;
+    height: 324px;
+    margin-left: 21px;
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.big-matrix-money-second-text {
+    width: 342px;
+    height: 40px;
+    margin-left: 21px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-eight {
+    width: 386px;
+    height: 56px;
+    margin-left: 21px;
+    margin-top: 0px;
+}
+
+/* ----------------------------Big Natrix Reletionship(Numerology)--------------------------------------- */
+
+.main-matrix-relationship {
+    margin-left: 40%;
+    width: 428px;
+    height: 1350px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.big-matrix-relationship {
+    width: 386px;
+    height: 410px;
+    margin-left: 21px;
+    margin-top: 40px;
+}
+
+.big-matrix-relationship-text {
+    width: 400px;
+    height: 621px;
+    margin-left: 21px;
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.big-matrix-relationship-second-text {
+    width: 342px;
+    height: 40px;
+    margin-left: 21px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-nine {
+    width: 386px;
+    height: 56px;
+    margin-left: 21px;
+    margin-top: -20px;
+}
+
+
+/* ----------------------------Taro Learning--------------------------------------- */
+
+.dont-ready {
+    width: 350px;
+    height: 135px;
+    margin-left: 39px;
+    margin-top: 43px;
+}
+
+/* ----------------------------Taro consultation--------------------------------------- */
+
+.main-consultation-taro {
+    margin-left: 40%;
+    width: 428px;
+    height: 1450px;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.money-alignment {
+    width: 350px;
+    height: 138px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.alignment-price-one {
+    width: 328px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-two {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-three {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.reletionship-alignment {
+    width: 350px;
+    height: 120px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.alignment-price-two {
+    width: 330px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-three {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-four {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.horror-alignment {
+    width: 350px;
+    height: 134px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.alignment-price-three {
+    width: 328px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-four {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-five {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.consultation-one {
+    width: 350px;
+    height: 109px;
+    margin-left: 39px;
+    margin-top: 25px;
+}
+
+.alignment-price-four {
+    width: 235px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-five {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+
+/* ----------------------------Associatve--------------------------------------- */
+
+.who-me {
+    width: 350px;
+    height: 148px;
+    margin-left: 39px;
+    margin-top: 40px;
+}
+
+.alignment-price-one {
+    width: 328px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-two {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-three {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.reletionship-alignment {
+    width: 350px;
+    height: 120px;
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+.alignment-price-two {
+    width: 330px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-three {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-four {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.money-alignment {
+    width: 350px;
+    height: 138px;
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+
+.alignment-price-three {
+    width: 328px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-four {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+.big-line-five {
+    width: 140px;
+    height: 0px;
+    margin-left: 144px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+
+
+
+.consultation-one {
+    width: 350px;
+    height: 109px;
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+.alignment-price-four {
+    width: 235px;
+    height: 22px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.WhatsApp-five {
+    width: 351px;
+    height: 51px;
+    margin-left: 39px;
+    margin-top: 0px;
+}
+
+
+/* ------------ */
+
+.main-matrix-calculator {
+    width: 100%;
+    background: #333332;
+    border-radius: 18px;
+}
+
+.calculator-header {
+    width: 428px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+    background: #33E4DA;
+    border-radius: 18px 18px 0 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+.watermark {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed
+}
+@media (max-width: 600px) {
+    .watermark-desktop {
+        display: none !important
+    }
+}
+@media (min-width: 600px) {
+    .watermark-mobile {
+        display: none !important
+    }
+}
+#Watermark1 {
+    position: absolute;
+    right: -5px;
+    bottom: 10px
+}
+#Watermark1 * {
+    color: #ffffff;
+    letter-spacing: 20px;
+    font-size: 36px
+}
+#Watermark2 {
+    position: absolute;
+    left: 15px;
+    bottom: 10px
+}
+#Watermark2 * {
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 20px
+}
+#Watermark3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 10px;
+    opacity: 0.5
+}
+#Watermark3 p {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px)
+}
+#Watermark4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    letter-spacing: 10px;
+    opacity: 0.5;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px)
+}
+#Watermark4 * {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1px
+}
+#Watermark4 p {
+    font-size: 8px;
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+    letter-spacing: 1.8px
+}
+#Watermark5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px 0
+}
+#Watermark5 * {
+    color: #ffffff;
+    letter-spacing: 9px;
+    font-size: 20px;
+    white-space: nowrap
+}
+#Watermark6 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 7px;
+    opacity: 0.5
+}
+#Watermark6 h1, #Watermark6 h2, #Watermark6 h3, #Watermark6 h4, #Watermark6 h5 {
+    font-size: 1.25rem
+}
+#Watermark6 p {
+    font-size: 0.75rem;
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+    letter-spacing: 8.6px
+}
+#Watermark7 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 7px;
+    opacity: 0.5
+}
+#Watermark7 h1, #Watermark7 h2, #Watermark7 h3, #Watermark7 h4, #Watermark7 h5 {
+    font-size: 1.25rem
+}
+#Watermark7 p {
+    font-size: 0.75rem;
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px)
+}
+#Watermark7 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px
+}
+#Watermark7 h1, #Watermark7 h2, #Watermark7 h3, #Watermark7 h4, #Watermark7 h5 {
+    font-size: 12px
+}
+#Watermark7 p {
+    font-size: 10px;
+    letter-spacing: 5.3px;
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px)
+}
+#picture {
+    height: auto;
+    width: 100%
+}
+.cls-56 {
+    fill: #cde1d8
+}
+.cls-21, .cls-30, .cls-36, .cls-48, .cls-51, .cls-54, .cls-57, .cls-59 {
+    fill: #cde1d8
+}
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.cls-54, .cls-55, .cls-56 {
+    font-size: 40px
+}
+.cls-28, .cls-30, .cls-34, .cls-35, .cls-36, .cls-39, .cls-43, .cls-51, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60 {
+    font-family: Arial-BoldMT, Arial
+}
+.cls-57, .cls-58 {
+    font-size: 18px
+}
+.cls-28, .cls-30, .cls-34, .cls-35, .cls-36, .cls-40, .cls-41, .cls-43, .cls-51, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60 {
+    font-weight: 700
+}
+.cls-24 {
+    fill: #cde1d8
+}
+.cls-21, .cls-24, .cls-3, .cls-5, .cls-7 {
+    stroke-width: 2px
+}
+.cls-11, .cls-12, .cls-14, .cls-16, .cls-17, .cls-18, .cls-20, .cls-21, .cls-23, .cls-24, .cls-26, .cls-27, .cls-3, .cls-31, .cls-32, .cls-37, .cls-4, .cls-47, .cls-5, .cls-7 {
+    stroke-miterlimit: 10
+}
+.cls-17, .cls-18, .cls-21, .cls-24, .cls-3, .cls-4, .cls-65 {
+    stroke: #201600
+}
+.cls-25 {
+    fill: #f7de74
+}
+.cls-11, .cls-64 {
+    stroke: #fff;
+    stroke-width: 3px
+}
+.cls-11, .cls-12, .cls-14, .cls-16, .cls-17, .cls-18, .cls-20, .cls-23, .cls-26, .cls-27, .cls-3, .cls-31, .cls-32, .cls-37, .cls-4, .cls-47, .cls-5, .cls-64, .cls-65, .cls-7 {
+    fill: none
+}
+.cls-26 {
+    stroke: #fbdb4a
+}
+.cls-38 {
+    fill: #c7504b
+}
+.cls-13 {
+    fill: #36c
+}
+.cls-15 {
+    fill: #3eb4f0
+}
+.cls-10 {
+    fill: #939
+}
+.cls-22 {
+    fill: #d88a4b
+}
+text {
+    display: block;
+    white-space: nowrap
+}
+.cls-28, .cls-30, .cls-34, .cls-35, .cls-36, .cls-39, .cls-43, .cls-51, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60 {
+    font-family: Arial-BoldMT, Arial
+}
+.cls-30, .cls-51 {
+    font-size: 12px
+}
+.order-1 {
+    -ms-flex-order: 1;
+    -webkit-box-ordinal-group: 2;
+    order: 1
+}
+.sub-but {
+    border: 1px solid black;
+    border-radius: 5px
+}
+.cls-7 {
+    stroke: #d24a43
+}
+.cls-21, .cls-24, .cls-3, .cls-5, .cls-7 {
+    stroke-width: 2px
+}
+.cls-5 {
+    stroke: #4d59a1
+}
+.cls-44, .cls-61 {
+    font-family: Arial-ItalicMT, Arial;
+    font-style: italic
+}
+.cls-28, .cls-33, .cls-39, .cls-44, .cls-48, .cls-51 {
+    font-size: 10px
+}
+.cls-53 {
+    fill: #000000
+}
+.cls-52 {
+    font-size: 41px;
+    fill: #000000;
+    font-family: ArialNarrow, Arial
+}
+.cls-19 {
+    fill: #d14a44
+}
+.matrix-value-point {
+    text-anchor: middle;
+    alignment-baseline: middle
+}
+#nebo1, #zemlia1, #for_self1, #male1, #female1, #socium1, #duhovnoe1, #planetarnoe1 {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px
+}
+img {
+    vertical-align: middle;
+    border-style: none
+}
+#prednazn td {
+    vertical-align: top
+}
+.erd {
+    width: 50px
+}
+.order-1 {
+    -ms-flex-order: 1;
+    -webkit-box-ordinal-group: 2;
+    order: 1
+}
+.health-map-table {
+    background: #f4f4f6 !important;
+    text-align: center
+}
+.health-map-table tr:nth-child(2) {
+    background: #993399 !important;
+    background-color: #993399 !important;
+    color: white !important
+}
+.health-map-table tr:nth-child(3) {
+    background: #3366ff !important;
+    color: white !important
+}
+.health-map-table tr:nth-child(4) {
+    background: #33ccff !important;
+    color: white !important
+}
+.health-map-table tr:nth-child(5) {
+    background: #66cc66 !important;
+    color: white !important
+}
+.health-map-table tr:nth-child(6) {
+    background: #ffff99 !important;
+    color: black !important
+}
+.health-map-table tr:nth-child(7) {
+    background: #ff9900 !important;
+    color: white !important
+}
+.health-map-table tr:nth-child(8) {
+    background: #cc3333 !important;
+    color: white !important
+}
+@media screen and (max-width: 720px), handheld and (max-width: 720px), projection and (max-width: 720px), tv and (max-width: 720px), tty and (max-width: 720px) {
+    #picture {
+        margin: 0px;
+        left: 0px
+    }
+}
+@media (min-width: 1024px) {
+    #row {
+        margin: 0 auto;
+        width: 700px
+    }
+    .img_s {
+        margin-left: 70px
+    }
+}
+@media (max-width: 720px) {
+    #row {
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 50px;
+        padding: 0
+    }
+}
+@media (min-width: 768px) {
+    .order-md-2 {
+        -ms-flex-order: 2;
+        -webkit-box-ordinal-group: 3;
+        order: 2
+    }
+}
+@media (min-width: 576px) {
+    .order-sm-1 {
+        -ms-flex-order: 1;
+        -webkit-box-ordinal-group: 2;
+        order: 1
+    }
+}
+.picture-bracket {
+    height: 64px;
+    width: auto
+}
+.picture-bracket svg {
+    width: auto;
+    height: 100%
+}
+table {
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px
+}
+.table-bracket td {
+    text-align: left;
+    vertical-align: middle
+}
+.table-bracket td:nth-child(1) {
+    width: 100px
+}
+.table-bracket td:nth-child(2) {
+    text-align: right;
+    width: 25px
+}
+.table-bracket td:nth-child(4) {
+    text-align: left;
+    width: 25px
+}
+@media (max-width: 600px) {
+    .table-bracket td:nth-child(1) {
+        width: auto
+    }
+    .table-bracket td:nth-child(2) {
+        text-align: right;
+        width: auto
+    }
+    .table-bracket td:nth-child(4) {
+        text-align: left;
+        width: auto
+    }
+}
+
+.matrix-souls-h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase
+}
+.matrix-souls-h5 {
+    font-size: 1.3rem;
+    text-transform: uppercase
+}
+.matrix-souls-h4-desctop {
+    -webkit-transform: translateY(-68px);
+    transform: translateY(-68px)
+}
+.mb-2 {
+    margin-bottom: 1rem;
+}
+@media (max-width: 600px) {
+    .h4 {
+        font-size: 1.2rem
+    }
+    .matrix-souls-h4 {
+        margin: 0;
+        font-size: 12px
+    }
+    .matrix-souls-h5 {
+        margin: 0;
+        font-size: 12px
+    }
+    .matrix-souls-h4-desctop {
+        -webkit-transform: translateY(-68px);
+        transform: translateY(-68px)
+    }
+}
+* {
+    font-family: "Tenor Sans", sans-serif;
+    color: #2e2e2e
+}
+body {
+    position: absolute;
+    width: 100vw
+}
+.body-container {
+    height: 100%
+}
+.container-result {
+    padding-bottom: 35px;
+    padding-top: 35px
+}
+.container-result-title {
+    font-size: 32px;
+    letter-spacing: 5px
+}
+@media (max-width: 600px) {
+    .container-result-title {
+        margin-right: -15px;
+        margin-left: -15px;
+        font-size: 20px;
+        letter-spacing: 1px
+    }
+}
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.body-row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    height: 100%;
+    width: 100%;
+}
+.bg-turquoise {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 880px;
+    background-color: white;
+}
+.bg-image-1 {
+    position: relative
+}
+.bg-image-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/bg.PNG);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.21;
+    z-index: -1
+}
+.bg-image-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #d6d8da;
+    z-index: -1
+}
+.h1 {
+    font-size: 40px;
+    letter-spacing: 10px
+}
+.h2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+@media (max-width: 600px) {
+    .h2 {
+        font-size: 22px;
+        letter-spacing: 1px
+    }
+}
+.card-pythagoras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px 0;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px dotted #000000;
+    border-radius: 10px
+}
+.card-pythagoras-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-color: transparent
+}
+.form-calc {
+    width: 100%;
+    padding: 0 15px
+}
+@media (max-width: 600px) {
+    .form-calc {
+        padding: 0
+    }
+}
+.form-title {
+    margin: 48px 0
+}
+@media (max-width: 600px) {
+    .form-title {
+        margin: 24px 0 0 0
+    }
+}
+.form-group {
+    margin: 48px 0
+}
+@media (max-width: 600px) {
+    .form-group {
+        margin: 12px 0
+    }
+}
+.form-calc-group {
+    position: relative
+}
+@media (max-width: 600px) {
+    .form-calc-group {
+        width: 100%
+    }
+}
+.form-calc-control {
+    background-color: #333332;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+.form-calc-control.is-invalid {
+    border-color: red;
+    color: red
+}
+@media (max-width: 600px) {
+    .form-calc-control {
+        width: 100%;
+        padding: 0.5rem
+    }
+}
+
+.form-calc-label-hover {
+    width: 153px;
+    height: 36px;
+    margin-left: 110px;
+    margin-top: -51px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.form-calc-submit {
+    width: 100%;
+    height: 65px;
+    background: #ac5ca8;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    border-color: #575757;
+}
+@media (max-width: 600px) {
+    .form-calc-submit {
+        padding: 0.5em 0;
+        width: 100%
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        position: relative;
+        height: auto;
+        width: auto
+    }
+    .mobile-grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .card-pythagoras {
+        margin: 1px 0;
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-left: -14px;
+        margin-right: -14px
+    }
+    .mobile-a {
+        padding: 10px 5px 5px 0 !important
+
+    }
+}
+img {
+    display: none !important
+}
+.value-circle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px
+}
+@media (max-width: 600px) {
+    .body-style-2 {
+        padding-bottom: 50px;
+        background: #cde1d8
+    }
+}
+
+.calculator-text {
+    position: relative;
+    width: 400px;
+    height: 60px;
+    margin-left: 14px;
+    margin-top: -10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    background-color: #25D366;
+    text-align: center;
+}
+
+/*# sourceMappingURL=style4.min.css.map */
+</style>
+<style type="text/scss">
+                       #picture {
+                           height: auto;
+                           width: 100%;
+                       }
+
+.cls-56 {
+    fill: #cde1d8;
+}
+.cls-21,
+.cls-30,
+.cls-36,
+.cls-48,
+.cls-51,
+.cls-54,
+.cls-57,
+.cls-59 {
+    fill: #cde1d8;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.cls-54,
+.cls-55,
+.cls-56 {
+    font-size: 40px;
+}
+.cls-28,
+.cls-30,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-39,
+.cls-43,
+.cls-51,
+.cls-54,
+.cls-55,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60 {
+    font-family: Arial-BoldMT, Arial;
+}
+.cls-57,
+.cls-58 {
+    font-size: 18px;
+}
+.cls-28,
+.cls-30,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-40,
+.cls-41,
+.cls-43,
+.cls-51,
+.cls-54,
+.cls-55,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60 {
+    font-weight: 700;
+}
+.cls-24 {
+    fill: #cde1d8;
+}
+.cls-21,
+.cls-24,
+.cls-3,
+.cls-5,
+.cls-7 {
+    stroke-width: 2px;
+}
+.cls-11,
+.cls-12,
+.cls-14,
+.cls-16,
+.cls-17,
+.cls-18,
+.cls-20,
+.cls-21,
+.cls-23,
+.cls-24,
+.cls-26,
+.cls-27,
+.cls-3,
+.cls-31,
+.cls-32,
+.cls-37,
+.cls-4,
+.cls-47,
+.cls-5,
+.cls-7 {
+    stroke-miterlimit: 10;
+}
+.cls-17,
+.cls-18,
+.cls-21,
+.cls-24,
+.cls-3,
+.cls-4,
+.cls-65 {
+    stroke: #201600;
+}
+.cls-25 {
+    fill: #f7de74;
+}
+.cls-11,
+.cls-64 {
+    stroke: #fff;
+    stroke-width: 3px;
+}
+.cls-11,
+.cls-12,
+.cls-14,
+.cls-16,
+.cls-17,
+.cls-18,
+.cls-20,
+.cls-23,
+.cls-26,
+.cls-27,
+.cls-3,
+.cls-31,
+.cls-32,
+.cls-37,
+.cls-4,
+.cls-47,
+.cls-5,
+.cls-64,
+.cls-65,
+.cls-7 {
+    fill: none;
+}
+.cls-26 {
+    stroke: #fbdb4a;
+}
+.cls-38 {
+    fill: #c7504b;
+}
+.cls-13 {
+    fill: #36c;
+}
+.cls-15 {
+    fill: #3eb4f0;
+}
+.cls-10 {
+    fill: #939;
+}
+.cls-22 {
+    fill: #d88a4b;
+}
+text {
+    display: block;
+    white-space: nowrap;
+}
+.cls-28,
+.cls-30,
+.cls-34,
+.cls-35,
+.cls-36,
+.cls-39,
+.cls-43,
+.cls-51,
+.cls-54,
+.cls-55,
+.cls-56,
+.cls-57,
+.cls-58,
+.cls-59,
+.cls-60 {
+    font-family: Arial-BoldMT, Arial;
+}
+
+.cls-30,
+.cls-51 {
+    font-size: 12px;
+}
+
+.order-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.sub-but {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cls-7 {
+    stroke: #d24a43;
+}
+.cls-21,
+.cls-24,
+.cls-3,
+.cls-5,
+.cls-7 {
+    stroke-width: 2px;
+}
+.cls-5 {
+    stroke: #4d59a1;
+}
+.cls-44,
+.cls-61 {
+    font-family: Arial-ItalicMT, Arial;
+    font-style: italic;
+}
+.cls-28,
+.cls-33,
+.cls-39,
+.cls-44,
+.cls-48,
+.cls-51 {
+    font-size: 10px;
+}
+.cls-53 {
+    fill: #000000;
+}
+.cls-52 {
+    font-size: 41px;
+    fill: #000000;
+    font-family: ArialNarrow, Arial;
+}
+.cls-19 {
+    fill: #d14a44;
+}
+.matrix-value-point {
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+#nebo1,
+#zemlia1,
+#for_self1,
+#male1,
+#female1,
+#socium1,
+#duhovnoe1,
+#planetarnoe1 {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+#prednazn td {
+    vertical-align: top;
+}
+.erd {
+    width: 50px;
+}
+.order-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}
+.health-map-table {
+    background: #f4f4f6 !important;
+    text-align: center;
+}
+.health-map-table tr:nth-child(2) {
+    background: #993399 !important;
+    background-color: #993399 !important;
+    color: white !important;
+}
+.health-map-table tr:nth-child(3) {
+    background: #3366ff !important;
+    color: white !important;
+}
+.health-map-table tr:nth-child(4) {
+    background: #33ccff !important;
+    color: white !important;
+}
+.health-map-table tr:nth-child(5) {
+    background: #66cc66 !important;
+    color: white !important;
+}
+.health-map-table tr:nth-child(6) {
+    background: #ffff99 !important;
+    color: black !important;
+}
+.health-map-table tr:nth-child(7) {
+    background: #ff9900 !important;
+    color: white !important;
+}
+.health-map-table tr:nth-child(8) {
+    background: #cc3333 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 720px), handheld and (max-width: 720px), projection and (max-width: 720px), tv and (max-width: 720px), tty and (max-width: 720px) {
+    #picture {
+        margin: 0px;
+        left: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #row {
+        margin: 0 auto;
+        width: 700px;
+    }
+    .img_s {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 720px) {
+    #row {
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 50px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .order-md-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+@media (min-width: 576px) {
+    .order-sm-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+.picture-bracket {
+    height: 64px;
+    width: auto;
+svg {
+    width: auto;
+    height: 100%;
+}
+}
+table {
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.table-bracket {
+td {
+    text-align: left;
+    vertical-align: middle;
+
+&:nth-child(1) {
+     width: 100px;
+ }
+&:nth-child(2) {
+     text-align: right;
+     width: 25px;
+ }
+&:nth-child(4) {
+     text-align: left;
+     width: 25px;
+ }
+}
+}
+
+@media (max-width: 600px) {
+    .table-bracket {
+    td {
+&:nth-child(1) {
+     width: auto;
+ }
+&:nth-child(2) {
+     text-align: right;
+     width: auto;
+ }
+&:nth-child(4) {
+     text-align: left;
+     width: auto;
+ }
+}
+}
+}
+.matrix-souls-h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.matrix-souls-h5 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.matrix-souls-h4-desctop {
+    transform: translateY(-68px);
+}
+@media (max-width: 600px) {
+    .h4 {
+        font-size: 1.2rem;
+    }
+    .matrix-souls-h4 {
+        margin: 0;
+        font-size: 12px;
+    }
+    .matrix-souls-h5 {
+        margin: 0;
+        font-size: 12px;
+    }
+    .matrix-souls-h4-desctop {
+        transform: translateY(0);
+    }
+}
+.watermark {
+    display: flex;
+    position: fixed;
+}
+
+.watermark-desktop {
+@media (max-width: 600px) {
+    display: none !important;
+}
+}
+
+.watermark-mobile {
+@media (min-width: 600px) {
+    display: none !important;
+}
+}
+
+#Watermark1 {
+    position: absolute;
+    right: -5px;
+    bottom: 10px;
+
+* {
+    color: #ffffff;
+    letter-spacing: 20px;
+    font-size: 36px;
+}
+}
+
+#Watermark2 {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+
+* {
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 20px;
+}
+}
+
+#Watermark3 {
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 10px;
+    opacity: 0.5;
+
+p {
+    transform: translateX(1px);
+}
+}
+
+#Watermark4 {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    letter-spacing: 10px;
+    opacity: 0.5;
+
+    transform: translateX(10px);
+
+* {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 8px;
+    transform: translateX(1px);
+    letter-spacing: 1.8px;
+}
+}
+
+#Watermark5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px 0;
+
+* {
+    color: #ffffff;
+    letter-spacing: 9px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+}
+
+#Watermark6 {
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 7px;
+    opacity: 0.5;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 0.75rem;
+    transform: translateX(1px);
+    letter-spacing: 8.6px;
+}
+}
+#Watermark7 {
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    margin: 30px 75px;
+    letter-spacing: 7px;
+    opacity: 0.5;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 0.75rem;
+    transform: translateX(1px);
+}
+}
+
+#Watermark7 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 10px;
+    letter-spacing: 5.3px;
+    transform: translateX(1px);
+}
+}
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import "watermark";
+@import "figure";
+@import "table";
+@import "typography";
+
+* {
+    font-family: "Tenor Sans", sans-serif;
+    color: #2e2e2e;
+}
+
+body {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.body-container {
+    height: 100%;
+}
+
+.container-result {
+    padding-bottom: 35px;
+    padding-top: 35px;
+
+@media (max-width: 600px) {
+}
+}
+
+.container-result-title {
+    font-size: 32px;
+    letter-spacing: 5px;
+
+@media (max-width: 600px) {
+    margin-right: -15px;
+    margin-left: -15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+}
+
+.body-row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    height: 100%;
+}
+
+.bg-turquoise {
+    background-color: #cde1d8;
+}
+
+.bg-image-1 {
+    position: relative;
+
+&::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-image: url(../img/bg.PNG);
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     opacity: 0.21;
+     z-index: -1;
+ }
+
+&::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: #d6d8da;
+     z-index: -1;
+ }
+}
+
+.h1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.h2 {
+    position: relative;
+    width: 267px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+@media (max-width: 600px) {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+}
+
+.card-pythagoras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px 0;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px dotted #000000;
+
+    border-radius: 10px;
+}
+
+.card-pythagoras-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: transparent;
+}
+
+.form-calc {
+    width: 100%;
+    padding: 0 15px;
+
+@media (max-width: 600px) {
+    padding: 0;
+}
+}
+
+.form-title {
+    margin: 48px 0;
+
+@media (max-width: 600px) {
+    margin: 24px 0 0 0;
+}
+}
+
+.form-group {
+    margin: 48px 0;
+
+@media (max-width: 600px) {
+    margin: 12px 0;
+}
+}
+
+.form-calc-group {
+    position: relative;
+
+@media (max-width: 600px) {
+    width: 100%;
+}
+}
+
+.form-calc-control {
+    background-color: #333332;
+    width: 366px;
+    height: 68px;
+    margin-left: 100px;
+    margin-top: -40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+
+&.is-invalid {
+     border-color: red;
+     color: red;
+ }
+
+@media (max-width: 600px) {
+    width: 100%;
+    padding: 0.5rem;
+}
+}
+
+.form-calc-label-hover {
+    width: 153px;
+    height: 36px;
+    margin-top: -51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.form-calc-submit {
+    width: 319px;
+    height: 65px;
+    margin-left: 50px;
+    margin-top: -45px;
+    background: #575757;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 149.4%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    border-color: #575757;
+
+@media (max-width: 600px) {
+    padding: 0.5em 0;
+    width: 100%;
+}
+}
+
+@media (max-width: 600px) {
+    body {
+        position: relative;
+        height: auto;
+        width: auto;
+    }
+
+    .mobile-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-pythagoras {
+        margin: 1px 0;
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-left: -14px;
+        margin-right: -14px;
+    }
+
+    .mobile-a {
+        padding: 10px 0px 5px 0 !important;
+    }
+}
+
+img {
+    display: none !important;
+}
+
+.value-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 600px) {
+    .body-style-2 {
+        padding-bottom: 50px;
+        background: #cde1d8;
+    }
+}
