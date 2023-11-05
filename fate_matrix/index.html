@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.statically.io/gh/RedMe1on/pythagorean_square/beb82c94/fate_matrix/fate_matrix.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.statically.io/gh/RedMe1on/pythagorean_square/beb82c94/fate_matrix/matrix.taplink.min.js"></script>
+
+</head>
+<body>
+<div>
+  <div class="block-item block-form">
+    <div>
+      <form id="matrixForm">
+        <div class="has-rtl">
+          <div>
+            <div class="form-field is-empty has-label has-compacted-mode"><label for="birthday-input" class="label">Дата рождения</label>
+              <input id="birthday-input" name="birthday" type="date" class="element">
+            </div>
+          </div>
+          <div>
+            <div class="form-field">
+              <button type="submit" class="button btn-link btn-link-title">Отправить</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="matrix" style="display: block;">
+    <div class="text-center">Возраст: <span id="user_age">27</span></div>
+    <div class="matrix-diagram">
+      <img src=https://cdn.statically.io/gh/RedMe1on/pythagorean_square/e011c329/fate_matrix/matrix.svg"  alt="Матрица">
+      <div class="matrix-circle size-lg pos_a purple">10</div>
+      <div class="matrix-circle size-md pos_a2 blue">3</div>
+      <div class="matrix-circle size-sm pos_a1 cyan">20</div>
+      <div class="matrix-circle size-sm pos_a3 green">3</div>
+      <div class="matrix-circle size-lg pos_b purple">6</div>
+      <div class="matrix-circle size-md pos_b2 blue">22</div>
+      <div class="matrix-circle size-sm pos_b1 cyan">16</div>
+      <div class="matrix-circle size-sm pos_b3 green">8</div>
+      <div class="matrix-circle size-lg pos_c red">7</div>
+      <div class="matrix-circle size-md pos_c2 white">6</div>
+      <div class="matrix-circle size-sm pos_c1 orange">17</div>
+      <div class="matrix-circle size-lg pos_d red">5</div>
+      <div class="matrix-circle size-md pos_d2 white">20</div>
+      <div class="matrix-circle size-sm pos_d1 orange">15</div>
+      <div class="matrix-circle size-lg pos_e yellow">10</div>
+      <div class="matrix-circle size-md pos_e1 white"></div>
+      <div class="matrix-circle size-sm pos_e2 white"></div>
+      <div class="matrix-circle size-lg pos_f white">16</div>
+      <div class="matrix-circle size-lg pos_g white">13</div>
+      <div class="matrix-circle size-lg pos_y white">12</div>
+      <div class="matrix-circle size-sm pos_p1 white">5</div>
+      <div class="matrix-circle size-md pos_p2 white">18</div>
+      <div class="matrix-circle size-sm pos_p3 white">7</div>
+      <div class="matrix-circle size-md pos_p4 white">22</div>
+      <div class="matrix-circle size-lg pos_k white">15</div>
+      <div class="matrix-circle size-sm pos_s1 white">8</div>
+      <div class="matrix-circle size-md pos_s2 white">6</div>
+      <div class="matrix-circle size-md pos_s3 white">7</div>
+      <div class="matrix-circle size-sm pos_s4 white">22</div>
+      <div class="matrix-circle size-sm pos_x white">5</div>
+      <div class="matrix-circle size-sm pos_x1 white">20</div>
+      <div class="matrix-circle size-sm pos_x2 white">22</div>
+      <div class="matrix-number pos_b8">13</div>
+      <div class="matrix-number pos_b7">7</div>
+      <div class="matrix-number pos_k2">8</div>
+      <div class="matrix-number pos_k1 bold">19</div>
+      <div class="matrix-number pos_k4">6</div>
+      <div class="matrix-number pos_k3">5</div>
+      <div class="matrix-number pos_k5">18</div>
+      <div class="matrix-number pos_k8">19</div>
+      <div class="matrix-number pos_k7">6</div>
+      <div class="matrix-number pos_k6">8</div>
+      <div class="matrix-number pos_c4 bold">20</div>
+      <div class="matrix-number pos_c6">11</div>
+      <div class="matrix-number pos_c5">9</div>
+      <div class="matrix-number pos_c7">16</div>
+      <div class="matrix-number pos_y3">15</div>
+      <div class="matrix-number pos_y2">8</div>
+      <div class="matrix-number pos_y4">9</div>
+      <div class="matrix-number pos_y1 bold">19</div>
+      <div class="matrix-number pos_y6">5</div>
+      <div class="matrix-number pos_y5">4</div>
+      <div class="matrix-number pos_y7">16</div>
+      <div class="matrix-number pos_d6">5</div>
+      <div class="matrix-number pos_y8">11</div>
+      <div class="matrix-number pos_d5">10</div>
+      <div class="matrix-number pos_d4 bold">17</div>
+      <div class="matrix-number pos_d8">12</div>
+      <div class="matrix-number pos_d7">22</div>
+      <div class="matrix-number pos_d9">9</div>
+      <div class="matrix-number pos_g3">12</div>
+      <div class="matrix-number pos_g2">7</div>
+      <div class="matrix-number pos_g4">9</div>
+      <div class="matrix-number pos_g1 bold">20</div>
+      <div class="matrix-number pos_g7">10</div>
+      <div class="matrix-number pos_g5">8</div>
+      <div class="matrix-number pos_g6">5</div>
+      <div class="matrix-number pos_t3">10</div>
+      <div class="matrix-number pos_t2">22</div>
+      <div class="matrix-number pos_t4">11</div>
+      <div class="matrix-number pos_t1 bold">7</div>
+      <div class="matrix-number pos_t6">6</div>
+      <div class="matrix-number pos_t5">17</div>
+      <div class="matrix-number pos_t7">9</div>
+      <div class="matrix-number pos_a5">10</div>
+      <div class="matrix-number pos_a4">18</div>
+      <div class="matrix-number pos_a6">8</div>
+      <div class="matrix-number pos_f1 bold">8</div>
+      <div class="matrix-number pos_f3">14</div>
+      <div class="matrix-number pos_f2">6</div>
+      <div class="matrix-number pos_f4">22</div>
+      <div class="matrix-number pos_f7">9</div>
+      <div class="matrix-number pos_f6">11</div>
+      <div class="matrix-number pos_f8">6</div>
+      <div class="matrix-number pos_f5 bold">22</div>
+      <div class="matrix-number pos_b5">5</div>
+      <div class="matrix-number pos_b4">10</div>
+      <div class="matrix-number pos_b6">16</div>
+    </div>
+    <div>
+      <h2>Личное предназначение</h2>
+      <table class="table">
+        <tbody>
+        <tr>
+          <td rowspan="2" class="gray">
+            Что нужно сделать лично для себя, с 20 до 40 лет
+          </td>
+          <td class="cyan bold" style="width: 25%">НЕБО</td>
+          <td class="pA1 bold cyan" style="width: 10%">11</td>
+          <td class="pA12 bold green" rowspan="2" style="width: 15%">10</td>
+        </tr>
+        <tr class="sand">
+          <td class="bold">ЗЕМЛЯ</td>
+          <td class="pA2 bold">17</td>
+        </tr>
+        </tbody>
+      </table>
+      <h2>Социальное предназначение</h2>
+      <table class="table">
+        <tbody>
+        <tr>
+          <td rowspan="2" class="gray">
+            Что нужно сделать для общества и рода, с 40 до 60 лет
+          </td>
+          <td class="cyan bold" style="width: 25%">МУЖСКОЕ</td>
+          <td class="pB1 bold cyan" style="width: 10%">10</td>
+          <td class="pB12 bold green" rowspan="2" style="width: 15%">20</td>
+        </tr>
+        <tr class="sand">
+          <td class="bold">ЖЕНСКОЕ</td>
+          <td class="pB2 bold">10</td>
+        </tr>
+        </tbody>
+      </table>
+      <h2>Духовное предназначение</h2>
+      <table class="table">
+        <tbody>
+        <tr>
+          <td class="gray">
+            Это итог жизни. Награда за выполнение личного и
+            социального предназначения. После 60 лет и до конца жизни
+          </td>
+          <td class="pAB green bold" style="width: 15%">3</td>
+        </tr>
+        </tbody>
+      </table>
+      <h2>Карта здоровья</h2>
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Название чакры</th>
+          <th scope="col">Физика</th>
+          <th scope="col">Энергия</th>
+          <th scope="col">Эмоции</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="purple">
+          <td>7. Сахасрара</td>
+          <td class="posA">10</td>
+          <td class="posB">6</td>
+          <td class="posAB">16</td>
+        </tr>
+        <tr class="blue">
+          <td>6. Аджна</td>
+          <td class="posK">3</td>
+          <td class="posM">22</td>
+          <td class="posKM">7</td>
+        </tr>
+        <tr class="cyan">
+          <td>5. Вишудха</td>
+          <td class="posL">20</td>
+          <td class="posN">16</td>
+          <td class="posLN">9</td>
+        </tr>
+        <tr class="green">
+          <td>4. Анахата</td>
+          <td class="posH">3</td>
+          <td class="posC">8</td>
+          <td class="posHC">11</td>
+        </tr>
+        <tr class="yellow">
+          <td>3. Манипура</td>
+          <td class="posI1">10</td>
+          <td class="posI2">10</td>
+          <td class="posI">20</td>
+        </tr>
+        <tr class="orange">
+          <td>2. Свадхистана</td>
+          <td class="posO">17</td>
+          <td class="posU">15</td>
+          <td class="posOU">5</td>
+        </tr>
+        <tr class="red">
+          <td>1. Муладхара</td>
+          <td class="posV">7</td>
+          <td class="posG">5</td>
+          <td class="posVG">12</td>
+        </tr>
+        <tr class="gray bold">
+          <td>ИТОГ</td>
+          <td class="posS1">7</td>
+          <td class="posS2">10</td>
+          <td class="posS3">8</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>
