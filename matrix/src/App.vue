@@ -53,7 +53,7 @@ function calculate() {
     number_1 += getSumDigits(number)
   }
   let number_2 = getSumDigits(number_1.toString())
-  let number_3 = number_1 - day[0] * 2
+  let number_3 = Math.abs(number_1 - day[0] * 2)
   let number_4 = getSumDigits(number_3.toString())
   fate_number.value = getSumDigits(number_1.toString())
   const all_digits = day + month + year + number_1.toString() + number_2.toString() + number_3.toString() + number_4.toString()
